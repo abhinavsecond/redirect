@@ -2,13 +2,50 @@
 <html>
 <head>
   <title>Hyperlink Example</title>
-  <script>
-    function setReferrer() {
-      document.referrer = "https://www.google.com/";
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f1f1f1;
+      margin: 0;
+      padding: 20px;
     }
-  </script>
+    
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    a {
+      text-decoration: none;
+      color: #fff;
+      background-color: #3498db;
+      padding: 10px 20px;
+      border-radius: 5px;
+      display: inline-block;
+      margin-top: 10px;
+      transition: background-color 0.3s ease;
+    }
+    
+    a:hover {
+      background-color: #2980b9;
+    }
+  </style>
 </head>
 <body>
-  <a href="https://onlyfans.com/away?url=https://chaturbate.com/p/fortune_baby/" onclick="setReferrer()">OnlyFans</a> Click here to visit onlyfans
+  <div class="container">
+    <h1>Hyperlink Example</h1>
+    <p>
+      <a href="https://onlyfans.com/away?url=https://chaturbate.com/p/fortune_baby/">OnlyFans</a> Click here to visit OnlyFans
+    </p>
+  </div>
 </body>
 </html>
